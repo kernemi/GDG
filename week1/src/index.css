@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f8ff; 
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+}
+
+div {
+  padding: 20px;
+  background: #007acc; 
+  color: #fff; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+  border-radius: 10px;
+  text-align: center; 
+}
+
+h2 {
+  font-weight: bold; 
+  margin-bottom: 20px;
+  color: #fff; 
+}
+
+ul {
+  list-style-type: none; 
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 10px 0; 
+  font-weight: bold; 
+}
+
+li:hover {
+  color: #020202; 
+  cursor: pointer;
+}
